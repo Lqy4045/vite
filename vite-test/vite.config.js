@@ -1,7 +1,7 @@
 import { defineConfig, loadEnv } from "vite";
-import viteBaseConfig from "./vite-base-config";
-import viteDevConfig from "./vite-dev-config";
-import viteProdConfig from "./vite-prod-config";
+import viteBaseConfig from "./builds/vite-base-config";
+import viteDevConfig from "./builds/vite-dev-config";
+import viteProdConfig from "./builds/vite-prod-config";
 const envConfig = {
   development: () => {
     return Object.assign({}, viteBaseConfig, viteDevConfig);
