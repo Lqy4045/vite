@@ -14,3 +14,4 @@
 
 1. vite-config使用环境变量时，要使用loadEnv去赋值一下
 
+{title:'标题',width:150,field:'title',visible:false,align:'left',params:{isMerge:true},},
